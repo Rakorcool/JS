@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        //Задание №1
+
+        var string = ['a', 'b', 'c'];
+        var number = [1, 2, 3];
+        var all = string.concat(number);
+        console.log(all);
+
+        //Задание №2
+        var nums = [];
+        var num;
+        while (num === undefined) {
+            num = prompt('Type numbers');
+            if (num !== null && num !== '' && !isNaN(num)) {
+                nums.push(Number(num));
+                num = undefined;
+            }
+        }
+        for (var c = 0, i = 0; i < nums.length; i++) {
+            c += nums[i];
+        }
+        alert(c);
+        //Задание №3
+
+        var value = 'abc';
+        var arr = ['users', 2, 4, 8, 'h', value];
+        console.log(arr.indexOf(value));
+
+    </script>
+</body>
+</html>
