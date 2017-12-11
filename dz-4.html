@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DZ4</title>
+</head>
+<body>
+<script>
+    //Задание №1
+    /*
+    var monusers = {
+        'Alex': 827,
+        'James': 6379,
+        'Bob': 34,
+        'John': 724,
+        'Peter': 578,
+        'Drake': 5269
+    };
+    var sum = 0;
+    for (var name in monusers) {
+        sum += monusers[name];
+    }
+    console.log( sum );
+    */
+    //Задание №2
+    /*
+    var monusers = {
+            'Alex': 827,
+            'James': 6379,
+            'Bob': 34,
+            'John': 724,
+            'Peter': 794,
+            'Drake': 5269
+    };
+    var max = 0;
+    var maxName = "";
+    for (var name in monusers) {
+        if (max < monusers[name]) {
+            max = monusers[name];
+            maxName = name;
+        }
+    }
+
+    alert( maxName);
+    */
+    //Задание №3
+    /*
+    var menu = {
+        width: 200,
+        height: 300,
+        title: "My title"
+    };
+    function isNumeric(num) {
+        return !isNaN(parseFloat(num)) && isFinite(num);
+    }
+    function nums(object) {
+        for (var key in object) {
+            if (isNumeric(object[key])) {
+                object[key] *= 2;
+            }
+        }
+    }
+    nums(menu);
+    console.log( menu.width + ' ' + menu.height + ' ' + menu.title );
+    */
+</script>
+</body>
+</html>
